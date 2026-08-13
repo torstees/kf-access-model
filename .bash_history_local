@@ -1,1 +1,33 @@
 direnv allow
+just setup
+git submodule add https://github.com/include-dcc/common-access-model src/kf_access_model/schema/
+git submodule add https://github.com/include-dcc/common-access-model src/kf_access_model/schema/kf_access_model
+git status
+vi .gitignore
+git status
+vi .gitignore
+history | grep commit
+git rm --cached .bash_history_local 
+git status
+git stauts
+git status
+git add .gitignore 
+ls src/kf_access_model/schema/
+git mv src/kf_access_model/schema/kf_access_model src/kf_access_model/schema/common_access_model
+more .gitmodules 
+git submodule deinit -f src/kf_access_model/schema/common_access_model
+rm -rf .git/modules/src/kf_access_model/schema/kf_access_model
+git submodule add --name src/kf_access_model/schema/common_access_model   https://github.com/include-dcc/common-access-model   src/kf_access_model/schema/common_access_model
+git rm --cached -f src/kf_access_model/schema/common_access_model
+git submodule add --name src/kf_access_model/schema/common_access_model   https://github.com/include-dcc/common-access-model   src/kf_access_model/schema/common_access_model
+rm -rf .git/modules/src/kf_access_model/schema/common_access_model
+rm -rf src/kf_access_model/schema/common_access_model
+git submodule add --name src/kf_access_model/schema/common_access_model   https://github.com/include-dcc/common-access-model   src/kf_access_model/schema/common_access_model
+cd src/kf_access_model/schema/
+ls
+cd common_access_model/
+git checkout 49d33685c0a5440adea25f006976a74b21f2ac01
+cd ../..
+ls
+cd ..
+git status
