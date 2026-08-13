@@ -31,3 +31,40 @@ cd ../..
 ls
 cd ..
 git status
+git commit -m "CAM" .
+git push
+gh repo create kf-access-model --public --source=. --remote=origin --push
+just site
+just testdoc
+zed .
+just site
+uv run python --version
+uv python pin 3.13
+just site
+ls -ltrh src/kf_access_model/schema/common-access-model/src/common_access_model/schema/common_access_model.yaml
+ls src/kf_access_model/schema/common_access_model/src/common_access_model/schema/common_access_model.yaml 
+just site
+which sqltablegen
+find . -name sqltablegen 
+uv pip show linkml
+just site
+uv pip show linkml
+just site
+uv sync --clean
+just --list
+just install
+just site
+just install
+rm -rf .venv/ uv.lock 
+just install
+just site
+rm -rf .venv/ uv.lock 
+just site
+git status
+git add uv.lock src/ pyproject.toml 
+history history_local
+history | history_local
+history | grep history_local
+tm rm --cached .bash_history_local 
+git rm --cached .bash_history_local 
+git status
